@@ -1,0 +1,55 @@
+.characters{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.App{
+    background-image: url('../Images/space.jpg');
+    color: white;
+}
+
+.character{
+    border: 1px solid #D3D3D3;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+}
+
+.previous{
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.currentpage {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.next {
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.next:hover{
+    text-decoration: underline;
+}
+
+.previous:hover{
+    text-decoration: underline;
+}
+
+.ep {
+    margin: 5px;
+}
+
+.films{
+    cursor: pointer;
+}
